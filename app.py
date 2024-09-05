@@ -60,7 +60,7 @@ def preprocess_image(image):
     image_array = np.expand_dims(image_array, axis=0)  # Add batch dimension
     return image_array
 
-dataset_path = 'known_faces/'
+dataset_path = 'C:\Users\Admin\Downloads\archive\lfw-deepfunneled\lfw-deepfunneled'
 embeddings = [] 
 labels = [] 
 for filename in os.listdir(dataset_path): 
